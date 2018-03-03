@@ -1,0 +1,129 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+a {
+  color: white;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  color: white;
+  background: linear-gradient(to right,#f80759, #e32071);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+
+
+
+.main {
+  text-align: center;
+  padding: 8rem 4rem;
+  display: block;
+}
+
+.detail {
+  background: #0a0a0a;
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  height: 60vh;
+  box-shadow: 0 -.01rem 1rem #0a0a0a;
+}
+
+.detail-title {
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  font-weight: 400;
+}
+
+.categories {
+  height: 18rem;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  height: 15rem;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.carousel-item {
+  flex-basis: 10rem;
+  padding: 1rem;
+  text-align: center;
+  width: 10rem;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.circle {
+  height: 10rem;
+  clip-path: circle();
+  position: relative;
+}
+
+.circle::after {
+  display: block;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(20, 20, 20, 0.00),
+    rgba(0, 0, 0, 0.50));
+  background-blend-mode: screen;
+  position: relative;
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+}
+
+.circle img {
+  height: 10rem;
+}
+/* Fonts */
+.font {
+  line-height: 0.9em;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 9.5rem;
+}
+.foodie {
+  font-family: 'Elsie', serif;
+  font-size: 2rem;
+  font-weight: 100;
+
+}
+
+.lit {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+/* Images */
