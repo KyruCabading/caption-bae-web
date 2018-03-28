@@ -23,6 +23,8 @@
   "homepage": "https://github.com/KyruCabading/caption-bae-web#readme",
   "dependencies": {
     "ejs": "^2.5.7",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "mongoose": "^5.0.8",
+    "passport-local-mongoose": "^5.0.0"
   }
 }
