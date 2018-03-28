@@ -4,11 +4,8 @@
 CSS exercise of a Skeleton outline of a qoute generator. Inspired by Netflix's circle crop images.
 
 **Feature Roadmap**
-* Handle Multi-line todos
-* User Login - Account based DB
-* Multiple lists
-* Web notifications
-* Theming Options
+* Create API for User Generated Qoutes
+* Handle multiple APIs for Qoute generation & storage
 
 
 ## Getting Started
